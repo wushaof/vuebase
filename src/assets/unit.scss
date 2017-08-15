@@ -1,0 +1,22 @@
+$border:#12b7f5;
+$border-f:#eee;
+$active:#5ED8FB;
+$pd-2:.2rem;
+// 常见分类
+%sort_bar{
+  font-size:.32rem;color:#333333;height:.88rem;line-height: .88rem;
+  border-bottom:1px solid #eee;background:#fff;
+}
+// 请选择案件分类
+%tip{
+  font-size:.28rem;color:#ffffff;
+  background:-webkit-linear-gradient(left,#00a3e6 0%,#14c4f6 100%);
+  height:.8rem; line-height:.8rem;
+}
+%li{
+  border:1px solid #5ED8FB;border-radius:3px;
+  margin:.08rem;
+  a{
+    color:#02b3e6;
+  }
+}

@@ -1,0 +1,81 @@
+.coin-title{
+	height:.86rem;
+	padding:0 .2rem;
+}
+.coin-title span{
+	padding-left:2.6rem;
+
+	font-size:.36rem;
+}
+.coin-title	i{
+	color:#00a3e6;
+}
+#helpbox,#servicebox,#restionbox,#Lawerdetailbox,#messagebox,#reportbox{
+  position: absolute;
+  z-index: 1;
+  top: 0.89rem;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+@-webkit-keyframes shake{
+		0%{-webkit-transform:rotate(-15deg);-ms-transform:rotate(-15deg);transform:rotate(-15deg)}
+		2%{-webkit-transform:rotate(15deg);-ms-transform:rotate(15deg);transform:rotate(15deg)}
+		4%{-webkit-transform:rotate(-18deg);-ms-transform:rotate(-18deg);transform:rotate(-18deg)}
+		6%{-webkit-transform:rotate(18deg);-ms-transform:rotate(18deg);transform:rotate(18deg)}
+		8%{-webkit-transform:rotate(-22deg);-ms-transform:rotate(-22deg);transform:rotate(-22deg)}
+		10%{-webkit-transform:rotate(22deg);-ms-transform:rotate(22deg);transform:rotate(22deg)}
+		12%{-webkit-transform:rotate(-18deg);-ms-transform:rotate(-18deg);transform:rotate(-18deg)}
+		14%{-webkit-transform:rotate(18deg);-ms-transform:rotate(18deg);transform:rotate(18deg)}
+		16%{-webkit-transform:rotate(-12deg);-ms-transform:rotate(-12deg);transform:rotate(-12deg)}
+		18%{-webkit-transform:rotate(12deg);-ms-transform:rotate(12deg);transform:rotate(12deg)}
+		100%,20%{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg)}
+}
+
+/*旋转动效*/
+@-webkit-keyframes fresh
+{
+	0% {
+		-webkit-transform: rotate(0deg);
+	   }
+
+	100% {
+		  -webkit-transform: rotate(180deg);
+		}
+}
+
+@-webkit-keyframes loadwating
+{
+	0% {
+		-webkit-transform: rotate(60deg);
+		/*color:#eee;*/
+	   }
+
+	20% {
+		  -webkit-transform: rotate(120deg);
+		  /*color:#000;*/
+		}
+
+	40% {
+		  -webkit-transform: rotate(180deg);
+		  /*color:#eee;*/
+		}
+
+	60% {
+		  -webkit-transform: rotate(240deg);
+		  /*color:#000;*/
+		}
+
+    80% {
+    	  -webkit-transform: rotate(300deg);
+    	  /*color:#eee;*/
+    	}
+
+	100% {
+		  -webkit-transform: rotate(360deg);
+		  /*color:#000;*/
+		}
+
+}

@@ -1,0 +1,21 @@
+$base:#28AFF5;
+$fontone:.28rem;
+$fonttwo:.32rem;
+$fontthree:.24rem;
+$fontfive:.36rem;
+$fontfour:1rem;
+%flexbox {display: -webkit-box; display: -moz-box;display: -webkit-flex;display:-moz-flex;display:flex;}
+%flex{ -webkit-box-flex:1;-ms-flex:1;flex:1;}
+/*横向或纵向*/
+%flex-r { -webkit-box-orient: horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-moz-flex-direction:row;flex-direction:row;}
+%flex-c { -webkit-box-orient: vertical;-webkit-box-direction: normal;-webkit-flex-direction:column;-moz-flex-direction:column;flex-direction:column;}
+%flex-w {-webkit-box-lines:multiple;-webkit-flex-wrap: wrap;-moz-flex-wrap: wrap;flex-wrap:wrap;}
+/*主轴对齐方式*/
+%flex-ju-ar {-moz-justify-content:space-around;-webkit-justify-content:space-around;justify-content:space-around;}
+%flex-ju-ce {-webkit-box-pack:center;-moz-justify-content:center;-webkit-justify-content:center;justify-content:center;}
+%flex-ju-be {-webkit-box-pack:justify;-moz-justify-content:space-between;-webkit-justify-content:space-between;justify-content:space-between;}
+/*侧轴对齐方式*/
+%flex-ali-ce {-webkit-box-align:center;-moz-align-items:center; -webkit-align-items:center;align-items:center;}
+%flex{
+  @extend %flexbox;@extend %flex-w;
+}
